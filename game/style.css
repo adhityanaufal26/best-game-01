@@ -1,0 +1,23 @@
+/* Tidewarden page chrome: dark water around the reef, canvas centred. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #02141d; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #bfe9d8;
+}
+#stage { text-align: center; padding: 12px; }
+#game {
+  display: block;
+  width: min(1280px, 96vw);
+  height: auto;
+  border: 2px solid rgba(126, 240, 212, 0.35);
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgba(20, 120, 140, 0.45);
+  background: #062e3d;
+  cursor: pointer;
+}
+#hint { margin: 10px 0 0; font-size: 13px; letter-spacing: 0.04em; color: #7fa8b5; }
